@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { Pagination, Autoplay } from 'swiper/modules'
 import { Swiper, SwiperSlide } from "swiper/react"
 import 'swiper/css';
@@ -9,9 +11,9 @@ import heroPic2 from '/assets/images/programming-background-collage.jpg'
 import heroPic3 from '/assets/images/slide-3.jpg'
 
 
-const Slider = () => {
-
+const Slide = () => {
   const component = [<Hero heroPic={heroPic1} />, <Hero heroPic={heroPic2} />, <Hero heroPic={heroPic3} />]
+
   return (
     <Swiper
       pagination={{
@@ -31,8 +33,7 @@ const Slider = () => {
           </SwiperSlide>
         })
       }
-    </Swiper>
-  )
+    </Swiper>)
 }
 
-export default Slider
+export default Slide

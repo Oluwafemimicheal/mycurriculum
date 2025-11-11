@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import Content from "../components/Content"
 import { frontend } from "../curriculumData"
 import { backend } from "../curriculumData"
-import Slider from "../components/slider"
+import Slider from "../components/Slide"
 import { motion } from "framer-motion";
 import { useState } from "react"
 import imageSecure from '/assets/images/Screenshot 2025-11-11 122727.png'
