@@ -1,0 +1,111 @@
+Module 1: Introduction to CSS
+
+What is CSS (Cascading Style Sheets)?
+Why we use CSS?
+Ways to add CSS to HTML
+Inline CSS
+Internal CSS (<style>)
+External CSS (.css file)
+Basic syntax (selector, property, and value)
+
+Practice:
+Change the background color and text color of a webpage.
+
+_____________________________________________________________________
+Module 2: CSS Selectors
+
+Element selectors (e.g., p, h1)
+ID selector (#idname)
+Class selector (.classname)
+Grouping selectors (e.g., h1, h2, h3)
+Universal selector (*)
+Descendant and child selectors
+
+Practice:
+Style specific sections of a webpage using classes and IDs.
+
+_____________________________________________________________________
+Module 3: Colors, Backgrounds, and Borders
+
+Text color (color)
+Background color and images (background-color, background-image)
+Border styles (border, border-radius, border-color)
+Opacity and transparency
+
+Practice:
+Create a colorful profile card with rounded borders.
+
+_____________________________________________________________________
+Module 4: Text and Fonts
+
+Font size (font-size)
+Font family (font-family)
+Text alignment (text-align)
+Text decoration and transformation (text-decoration, text-transform)
+Line height and letter spacing
+
+Practice:
+Create a simple article page with customized fonts and spacing.
+
+______________________________________________________________________
+Module 5: The Box Model
+
+Content, Padding, Border, and Margin
+Width and height properties
+Box sizing (box-sizing: border-box;)
+Outline vs Border
+
+Practice:
+Create a few boxes with visible padding, border, and margin
+_______________________________________________________________________
+Module 6: Layout – Display, Positioning, and Float
+
+Display types (block, inline, inline-block, none)
+Positioning (static, relative, absolute, fixed, sticky)
+Float and clear
+Z-index (layering elements)
+
+Practice:
+Make a sticky navigation bar at the top of the page.
+______________________________________________________________________
+
+Module 7: Flexbox (Modern Layout)
+
+display: flex;
+Main axis and cross axis
+justify-content, align-items, flex-wrap
+Flexbox alignment and spacing
+
+Practice:
+Build a responsive card layout using Flexbox.
+_______________________________________________________________________
+
+Module 8: CSS Grid (Optional for Beginners)
+
+display: grid;
+grid-template-columns and grid-template-rows
+gap, row-gap, column-gap
+
+Practice:
+Create a 3x3 image gallery using Grid.
+________________________________________________________________________
+
+Module 9: Transitions and Hover Effects
+
+Hover states (:hover)
+Transitions (transition-duration, transition-property)
+Simple button animations
+
+Practice:
+Create a button that changes color and grows slightly when hovered.
+_________________________________________________________________________
+
+Module 10: Responsive Design and Media Queries
+
+Viewport meta tag
+Relative units (%, em, rem, vh, vw)
+Media queries (@media)
+Responsive images and text
+
+Practice:
+Make your webpage adapt to mobile and desktop screen sizes.

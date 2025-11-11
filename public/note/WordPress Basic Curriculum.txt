@@ -1,0 +1,131 @@
+
+Module 1: Introduction to WordPress
+
+What is WordPress?
+Difference between WordPress.com and WordPress.org
+Benefits of using WordPress
+Understanding CMS (Content Management System)
+Examples of popular sites built with WordPress
+
+Practice:
+Explore WordPress.com and WordPress.org websites.
+Write a short paragraph on why businesses use WordPress.
+
+_______________________________________________________________
+Module 2: Setting Up WordPress
+
+WordPress requirements (hosting, domain, PHP, MySQL)
+Installing WordPress locally using:
+XAMPP / LocalWP (for local development)
+cPanel (for live hosting)
+Understanding the WordPress Dashboard
+Exploring the main sections: Posts, Pages, Media, 
+Appearance, Plugins, Users, Settings
+
+Practice:
+Install WordPress locally using XAMPP or LocalWP.
+Log in and explore your dashboard.
+
+_______________________________________________________________
+Module 3: Posts, Pages, and Media
+
+Difference between Posts and Pages
+Adding and editing Posts
+Adding and editing Pages
+Adding images, videos, and files to the Media Library
+Managing categories and tags
+
+Practice:
+Create a sample “About Us” page and a blog post with an image.
+
+_______________________________________________________________
+Module 4: Themes and Customization
+
+What are themes?
+Installing and activating themes
+Customizing a theme using the WordPress Customizer
+Editing site identity (title, logo, colors, fonts)
+Using block themes (Full Site Editing in newer WordPress versions)
+
+Practice:
+Install a free theme like “Astra” or “Twenty Twenty-Four.”
+Change the site logo and background color.
+
+_______________________________________________________________
+Module 5: Menus and Widgets
+
+Creating navigation menus
+Adding pages and custom links to menus
+Adding widgets (search bar, recent posts, categories)
+Footer and sidebar customization
+
+Practice:
+Create a top navigation menu with “Home,” 
+“About,” and “Contact” pages.
+
+_______________________________________________________________
+Module 6: Plugins and Functionality
+
+What are plugins?
+How to install, activate, and deactivate plugins
+Must-have plugins (examples):
+Yoast SEO (search optimization)
+Contact Form 7 (contact form)
+Elementor (page builder)
+UpdraftPlus (backup)
+Updating plugins safely
+
+Practice:
+Install and activate a contact form plugin.
+Add a simple contact form to a page.
+
+_______________________________________________________________
+Module 7: Users, Roles, and Permissions
+
+User roles: Administrator, Editor, Author, Contributor, 
+Subscriber Adding new users
+Changing passwords and profile information
+
+Practice:
+Create two user accounts with different roles 
+(Admin and Editor).
+
+_______________________________________________________________
+Module 8: Customizing with Page Builders
+
+What are page builders?
+Using Elementor, Divi, or Gutenberg blocks
+Creating reusable templates
+Designing hero sections, grids, and buttons visually
+
+Practice:
+Build a simple homepage layout using Elementor or Gutenberg.
+
+_______________________________________________________________
+Module 9: Settings, Security, and Maintenance
+
+General settings (site title, time zone, permalink structure)
+Backup and restore strategies
+Updating WordPress core, themes, and plugins
+Basic security plugins (Wordfence, Sucuri)
+Spam protection with Akismet
+
+Practice:
+Configure permalinks to use post names.
+Install a security plugin and scan your site.
+
+_______________________________________________________________
+Module 10: SEO, Analytics, and Launch
+
+Introduction to SEO (Search Engine Optimization)
+Setting up Yoast SEO plugin
+Submitting your site to Google Search Console
+Installing Google Analytics
+Going live (uploading from local to hosting)
+
+Practice:
+Add SEO title and meta description to one post.
+Submit your site to Google Search Console.
+
+Final Project: Build Your Own WordPress Website
+Personal Portfolio Website – showcase your skills and projects.

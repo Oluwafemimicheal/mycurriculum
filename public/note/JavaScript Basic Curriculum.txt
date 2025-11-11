@@ -1,0 +1,137 @@
+
+Module 1: Introduction to JavaScript
+
+What is JavaScript?
+How JavaScript works in a browser
+Linking JavaScript to HTML (<script> tag)
+Writing your first script (using console.log())
+Inline, internal, and external scripts
+
+Practice:
+Display “Hello, World!” in the browser console and on a webpage.
+
+_______________________________________________________________________
+Module 2: Variables and Data Types
+
+Variables (let, const, var)
+Data types: string, number, boolean, undefined, null, object
+Type conversion (Number(), String())
+Template literals (`Hello ${name}`)
+
+Practice:
+Create variables for your name, age, and favorite color, 
+and print them using console.log().
+
+_______________________________________________________________________
+Module 3: Operators and Expressions
+
+Arithmetic operators (+, -, *, /, %)
+Assignment operators (+=, -=, etc.)
+Comparison operators (==, ===, !=, >, <)
+Logical operators (&&, ||, !)
+
+Practice:
+Build a simple calculator that adds and multiplies two numbers.
+
+_______________________________________________________________________
+Module 4: Conditional Statements
+
+if, else if, and else statements
+The switch statement
+The ternary operator (condition ? true : false)
+
+Practice:
+Write a program that checks if a number is even or odd.
+
+______________________________________________________________________
+Module 5: Loops
+
+for loop
+while loop
+do...while loop
+break and continue statements
+
+Practice:
+Print numbers 1–10 using a loop.
+Create a loop that prints all even numbers between 1 and 20.
+
+______________________________________________________________________
+Module 6: Functions
+
+Function declaration and calling functions
+Parameters and return values
+Arrow functions (()=>{})
+Default parameters
+
+Practice:
+Write a function to calculate the area of a rectangle.
+Create a function that greets the user by name.
+
+______________________________________________________________________
+Module 7: Arrays
+
+Creating arrays ([])
+Accessing and modifying elements
+Array methods (push, pop, shift, unshift, slice, splice)
+Looping through arrays (for, forEach)
+
+Practice:
+Create an array of fruits and print each fruit using a loop.
+
+______________________________________________________________________
+Module 8: Objects
+
+Object literals ({ key: value })
+Accessing properties (dot and bracket notation)
+Nested objects
+Adding and deleting properties
+
+Practice:
+Create a person object with properties: name, age, and address.
+Print the person’s name and update their age.
+
+______________________________________________________________________
+Module 9: DOM Manipulation
+
+What is the DOM (Document Object Model)?
+Selecting elements (getElementById, querySelector)
+Changing text, HTML, and CSS
+Handling events (onclick, addEventListener)
+
+Practice:
+Create a button that changes background color when clicked.
+Make an input box that displays the typed text on the screen.
+
+______________________________________________________________________
+Module 10: Basic Events and Form Handling
+
+Mouse events (click, hover)
+Keyboard events (keydown, keyup)
+Form submission and validation
+
+Practice:
+Create a simple form that checks if all fields 
+are filled before submission.
+
+______________________________________________________________________
+Module 11: Introduction to ES6 (Modern JavaScript)
+
+let and const (block scope)
+Arrow functions
+Template literals
+Destructuring arrays and objects
+Spread operator (...)
+Import and export (basics)
+
+Practice:
+Use destructuring to extract values from an object.
+Write a simple arrow function that returns the square of a number.
+
+______________________________________________________________________
+Module 12: Mini Projects
+
+Counter App – A button to increase/decrease a number.
+To-Do List – Add and remove tasks dynamically.
+Color Changer – Change background color randomly on click.
+Simple Calculator – Perform basic math operations.
+Form Validator – Check for empty inputs before submitting.

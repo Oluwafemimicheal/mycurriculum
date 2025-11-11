@@ -1,0 +1,80 @@
+Module 1: Introduction to HTML
+What is HTML (HyperText Markup Language)?
+Structure of an HTML Document
+HTML Tags and Elements
+HTML Attributes
+How to create and save an HTML file
+Viewing your first webpage in a browser
+
+Practice:
+Create a simple webpage with a title and a paragraph.
+______________________________________________________________________
+
+Module 2: HTML Document Structure
+<!DOCTYPE html> declaration
+<html>, <head>, and <body> tags
+The role of the <title> tag
+Adding comments in HTML
+
+Practice:
+Create a full HTML document with title, body, and footer content.
+_______________________________________________________________________
+
+Module 3: Text Formatting and Headings
+Headings (<h1> to <h6>)
+Paragraphs (<p>)
+Line breaks (<br>) and horizontal rules (<hr>)
+Bold, italic, and underline (<b>, <i>, <u>)
+Strong and emphasized text (<strong>, <em>)
+
+Practice:
+Write a short article using headings, paragraphs, and formatting tags.
+_______________________________________________________________________
+
+Module 4: Lists and Links
+Ordered lists (<ol>)
+Unordered lists (<ul>)
+List items (<li>)
+Links (<a>) and href attribute
+Opening links in new tabs (target="_blank")
+
+Practice:
+Create a webpage with your favorite foods using lists and links.
+_______________________________________________________________________
+
+Module 5: Images and Multimedia
+The <img> tag and src, alt, width, height attributes
+Adding audio (<audio>) and video (<video>) elements
+Relative vs. absolute paths
+
+Practice:
+Create a simple gallery with three images and captions.
+_______________________________________________________________________
+
+Module 6: Tables
+<table>, <tr>, <td>, <th> tags
+Table borders and styling with attributes
+Merging cells (colspan, rowspan)
+
+Practice:
+Build a student grade table.
+_______________________________________________________________________
+
+Module7: Semantic Tags
+
+<header> – for page or section headings
+<nav> – for navigation menus
+<main> – for the main page content
+<section> – for grouped content
+<article> – for self-contained content pieces (like blog posts)
+<aside> – for sidebars or related info
+<footer> – for bottom content or links
+
+_______________________________________________________________________
+
+Module 8: Forms and Inputs
+<form> element and action attribute
+Input types: text, password, email, checkbox,
+
+Practice:
+Create a login page

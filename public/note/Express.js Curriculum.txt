@@ -1,0 +1,148 @@
+Express.js Curriculum
+1. Introduction to Express.js
+
+What is Express.js?
+
+Why use Express instead of Node’s http module
+
+Installing Express (npm install express)
+
+Creating your first Express app
+
+Practice:
+
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => res.send('Hello Express!'));
+
+app.listen(3000, () => console.log('Server running on port 3000'));
+
+2. Routing
+
+app.get(), app.post(), app.put(), app.delete()
+
+Route parameters (/users/:id)
+
+Query parameters (/search?name=Femi)
+
+Sending responses (res.send(), res.json(), res.status())
+
+Practice:
+
+Create routes: /, /about, /users/:id
+
+Return JSON data for /users/:id.
+
+3. Middleware
+
+Built-in middleware (express.json(), express.urlencoded())
+
+Custom middleware functions
+
+Using third-party middleware (morgan, cors)
+
+Practice:
+
+Log all incoming requests using custom middleware
+
+Parse JSON from POST requests
+
+4. Serving Static Files
+
+express.static() to serve HTML, CSS, JS, and images
+
+Setting up a public folder
+
+Accessing static files in the browser
+
+Practice:
+
+Serve an HTML page with CSS and images from public/.
+
+5. Handling Forms and POST Requests
+
+Handling POST requests (app.post())
+
+Accessing form data using express.urlencoded({ extended: true })
+
+Accessing JSON data using express.json()
+
+Practice:
+
+Create a form that submits name and email
+
+Return a confirmation message
+
+6. Router and Modularization
+
+Using express.Router() to separate routes
+
+Importing routers in app.js
+
+Organizing routes for scalability
+
+Practice:
+
+Move /users routes into a separate users.js file using Router.
+
+7. Query Strings and Route Parameters
+
+Accessing query parameters (req.query)
+
+Accessing route parameters (req.params)
+
+Optional parameters
+
+Practice:
+
+/search?term=keyword → return JSON with the search term
+
+/products/:id → return product data by ID
+
+8. Error Handling
+
+Sending HTTP status codes (res.status())
+
+Handling 404 errors
+
+Error-handling middleware (function(err, req, res, next))
+
+Practice:
+
+Add a 404 route for unknown paths
+
+Add error-handling middleware returning JSON errors
+
+9. Template Engines (Optional)
+
+Using EJS or Pug for dynamic HTML
+
+Passing data to templates
+
+Rendering views using res.render()
+
+Practice:
+
+Render a page dynamically with a list of items using EJS.
+
+10. Mini Project
+
+Goal: Apply everything learned in a small Express app.
+Project Ideas:
+
+Simple REST API
+
+Routes: /, /about, /users
+
+GET and POST routes
+
+Handle route params and query strings
+
+404 and error handling
+
+Static Website with Forms
+
+Serve HTML, CSS, JS
+
+Handle form submissions with POST request

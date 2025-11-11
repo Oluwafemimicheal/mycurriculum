@@ -1,0 +1,149 @@
+
+Module 1: Introduction to React
+
+What is React.js?
+Why use React (vs. plain JavaScript or jQuery)
+Component-based architecture
+Virtual DOM concept
+How React updates the UI efficiently
+
+Practice:
+Research 3 popular websites built with React 
+(e.g., Facebook, Netflix, Airbnb).
+
+Write a short note: Why developers use React.
+
+___________________________________________________________
+Module 2: React Setup and Project Structure
+
+Installing Node.js and npm
+Setting up a React app using:
+npx create-react-app my-app
+or Vite (npm create vite@latest my-app --template react)
+Understanding folder structure (src, public, components)
+Starting and running the app
+
+Practice:
+Create your first React app and display 
+“Hello React!” on the screen.
+
+___________________________________________________________
+Module 3: JSX (JavaScript XML)
+
+What is JSX and why it’s used
+Embedding expressions ({})
+JSX rules (single parent, closing tags, etc.)
+Inline styles and attributes
+Differences between JSX and HTML
+
+Practice:
+Create a JSX element that displays 
+your name and favorite color.
+
+___________________________________________________________
+Module 4: Components and Props
+
+Functional components
+Creating and exporting components
+Importing components into App.js
+Props (passing data to components)
+Default props and destructuring
+
+Practice:
+Create a ProfileCard component that receives props 
+like name, age, and image.
+
+___________________________________________________________
+Module 5: React Events and Conditional Rendering
+
+Handling events (onClick, onChange, onSubmit)
+Event handler functions
+Conditional rendering (if, ? :, &&)
+
+Practice:
+Create a button that toggles between “ON” and “OFF”
+when clicked.
+Show a message only if a variable is true.
+
+___________________________________________________________
+Module 6: Lists and Keys
+
+Rendering arrays using .map()
+Unique keys in lists
+Handling empty lists
+
+Practice:
+Display a list of your favorite movies using .map().
+
+___________________________________________________________
+Module 7: useState Hook
+
+What is state?
+Using useState for dynamic values
+Updating and reading state
+Multiple states in a single component
+
+Practice:
+Build a simple counter app with “+” and “–” buttons.
+Build a text input that shows what you type in real time.
+
+___________________________________________________________
+Module 8: useEffect Hook
+
+What are side effects?
+Using useEffect for:
+Running code on mount
+Running when dependencies change
+Cleanup functions
+Common use cases: API calls, timers, local storage
+
+Practice:
+Log a message to the console every time a button is clicked.
+Fetch data from a public API and display it.
+
+___________________________________________________________
+Module 9: useContext Hook
+
+Why useContext is needed
+Creating a context
+Providing and consuming context
+Using context across multiple components
+
+Practice:
+Build a theme toggle (light/dark mode) using Context API.
+
+___________________________________________________________
+Module 10: Forms and Controlled Components
+
+Controlled vs uncontrolled inputs
+Handling form submissions
+Managing multiple inputs
+Validation basics
+
+Practice:
+Create a form that captures name and email and 
+displays them after submission.
+
+___________________________________________________________
+Module 11: React Router (Navigation)
+
+Installing React Router (npm install react-router-dom)
+<BrowserRouter>, <Routes>, and <Route>
+Using <Link> for navigation
+Nested routes and 404 pages
+
+Practice:
+Create a small multi-page site with “Home”, “About”, and “Contact” pages.
+
+___________________________________________________________
+Module 12: Project and Deployment
+
+Building small projects
+Connecting to APIs
+Hosting React apps (on Netlify, Vercel, or GitHub Pages)
+Build and deploy commands (npm run build)
+
+Mini Project Ideas:
+To-Do List App – Add, edit, and delete tasks.
+Weather App – Fetch live data from an API.
+

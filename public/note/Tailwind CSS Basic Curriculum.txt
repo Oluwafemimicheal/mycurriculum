@@ -1,0 +1,99 @@
+
+Module 1: Introduction to Tailwind CSS
+
+What is Tailwind CSS
+Difference between Tailwind and traditional CSS
+Benefits of utility-first CSS
+Installing Tailwind (via CDN or npm)
+Setting up Tailwind in an HTML project
+
+Practice:
+Create a simple webpage using Tailwind via CDN.
+Change background colors, text colors, and font sizes using classes.
+
+______________________________________________________________________
+Module 2: Tailwind Utility Classes 
+
+Applying multiple classes on an element
+Color utilities (bg-, text-)
+Font size and weight (text-xl, font-bold)
+Margin and padding (m-, p-)
+Border and rounding (border, rounded-lg)
+
+Practice:
+Create a profile card using margin, padding, and border utilities.
+
+______________________________________________________________________
+Module 3: Layout and Flexbox
+
+Display utilities (flex, grid, block, inline-block)
+Flexbox basics (flex, justify-center, items-center, gap-4)
+Direction and wrapping (flex-col, flex-wrap)
+Width, height, and spacing (w-1/2, h-64, space-x-4)
+
+Practice:
+Build a responsive navigation bar using flex and justify-between.
+
+______________________________________________________________________
+Module 4: Typography and Text Utilities
+
+Text size and color (text-sm, text-gray-700)
+Font weight (font-medium, font-bold)
+Alignment (text-center, text-right)
+Line height and letter spacing (leading-loose, tracking-wide)
+
+Practice:
+Create a blog preview card with styled title and description.
+
+______________________________________________________________________
+Module 5: Backgrounds, Borders, and Shadows
+
+Background colors and gradients (bg-blue-500, bg-gradient-to-r)
+Borders (border, border-gray-300, rounded-full)
+Shadows (shadow, shadow-lg, shadow-inner)
+Opacity and hover effects (hover:bg-blue-700, opacity-80)
+
+Practice:
+Design a card with gradient background and hover shadow effect.
+
+______________________________________________________________________
+Module 6: Grid Layout
+
+Grid container and columns (grid, grid-cols-2, grid-cols-3)
+Gap utilities (gap-2, gap-6)
+Column and row span (col-span-2, row-span-3)
+
+Practice:
+Create a simple photo gallery using grid and gap.
+
+______________________________________________________________________
+Module 7: Buttons and Hover Effects
+
+Button styling (bg-blue-600, text-white, rounded-md, px-4, py-2)
+Hover and focus states (hover:bg-blue-700, focus:ring-2)
+Transition utilities (transition, duration-300, ease-in-out)
+
+Practice:
+Build different button styles: primary, secondary, and danger.
+
+______________________________________________________________________
+Module 8: Responsive Design
+
+Breakpoints: sm, md, lg, xl, 2xl
+Responsive utilities (e.g., md:text-lg, lg:w-1/2)
+Responsive flex/grid layouts
+Hidden and block utilities (hidden, md:block)
+
+Practice:
+Make your navbar or grid layout responsive for mobile and desktop.
+
+______________________________________________________________________
+Module 9: Components and Reusability
+
+Creating reusable card, navbar, and footer
+Combining Tailwind utilities
+Using @apply in custom CSS (if using Tailwind with build tools)
+Dark mode basics (dark:bg-gray-800, dark:text-white)
+
+Practice:
+Build a full landing page using reusable Tailwind components.
