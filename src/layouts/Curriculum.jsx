@@ -12,7 +12,7 @@ const Curriculum = () => {
   return (
     <div>
       <Slider />
-      <div className="flex flex-col justify-center gap-30 lg:px-30 lg:py-10  py-10 px-3">
+      <div className="flex flex-col justify-center gap-16 lg:gap-30 lg:px-30 lg:py-10  py-10 px-3">
         <div>
           <h1 className=" text-2xl lg:text-3xl font-bold mb-8"><span className="text-blue-500">Frontend Development</span> Curriculum</h1>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -43,9 +43,13 @@ const Curriculum = () => {
                 </div>
               </div>
             }
-            <div>
+            {
+              !login && <div className="lg:hidden sm:flex justify-center items-center h-auto">
+                <h1>Please login to access the Backend Curriculum</h1>
+                <button onClick={() => setPop(true)} className="w-full mt-3 px-6 py-2 bg-white hover:bg-blue-500 text-blue-500 hover:text-white transition rounded-lg font-semibold cursor-pointer">Login</button>
+              </div>
+            }
 
-            </div>
           </div>
         </div>
       </div>
