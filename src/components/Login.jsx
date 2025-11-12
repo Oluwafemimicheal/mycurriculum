@@ -35,8 +35,8 @@ const Login = () => {
     <motion.div initial={{ opacity: 0, y: -100 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 0 }}
-      transition={{ duration: 0.2 }} className="bg-gray-800/40 flex justify-center items-center fixed z-50 px-5 lg:px-0 w-full h-screen pointer-events-auto overflow-hidden">
-      <div className="w-[400px] h-auto bg-gray-900 text-black rounded-2xl p-6 lg:p-10 flex flex-col relative gap-5">
+      transition={{ duration: 0.2 }} className="bg-gray-800/40 flex justify-center items-center fixed z-50 px-2 lg:px-0 w-full h-screen pointer-events-auto overflow-hidden">
+      <div className="w-[400px] h-auto bg-gray-900 text-black rounded-2xl p-8 lg:p-10 flex flex-col relative gap-5">
         <button onClick={() => setPop(false)} className='absolute top-1 right-2 cursor-pointer p-3 '><FaTimes size={20} color='white' /></button>
         <div>
           <h1 className="font-bold text-white text-3xl mb-1">Curriculum Hub</h1>
