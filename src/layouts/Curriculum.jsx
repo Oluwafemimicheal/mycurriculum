@@ -16,7 +16,7 @@ const Curriculum = () => {
       <Slider />
       <div className="flex flex-col justify-between  gap-16 lg:gap-10 lg:px-30 lg:py-5  py-10 px-3">
         <div className="flex justify-between items-center gap-5 bg-[#181717] p-2">
-          <div className="flex gap-3">
+          <div className="hidden lg:flex gap-3">
             <Link to={'classes'} className="bg-[#242424] hover:bg-blue-600 transition shadow-sm shadow-black/50 text-white px-4 py-1 rounded-sm">Classes</Link>
             <Link to={'attendance'} className="bg-[#242424] hover:bg-blue-600 transition shadow-sm shadow-black/50 text-white px-4 py-1 rounded-sm">Attendance</Link>
             <Link to={'project'} className="bg-[#242424] hover:bg-blue-600 transition shadow-sm shadow-black/50 text-white px-4 py-1 rounded-sm">Project</Link>

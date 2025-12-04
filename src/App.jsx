@@ -22,10 +22,10 @@ function App() {
         <Route index path="/" element={<Curriculum />}></Route>
         <Route path="course/:id" element={<Course />}></Route>
         <Route path="/text/:id" element={<ReadFile />}></Route>
-        <Route path="*" element={<NotFound />}></Route>
         <Route path="classes" element={<Classes />} />
         <Route path="attendance" element={<Attendance />} />
         <Route path="project" element={<Project />} />
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </div>
   )

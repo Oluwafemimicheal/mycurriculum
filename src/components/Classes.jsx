@@ -6,8 +6,8 @@ const Classes = () => {
       <div className='w-full bg-gray-600 h-[100px] p-10 '>
         <h1 className='text-white text-3xl font-bold'>Class Sections </h1>
       </div>
-      <div className='w-[1200px] mx-auto'>
-        <div className='grid lg:grid-cols-3 gap-5 mb-10'>
+      <div className='w-full lg:w-[1200px] mx-auto'>
+        <div className='grid lg:grid-cols-3  gap-5 mb-10'>
           <Content contentTopic='Monday and Wednesday' topicNum='3' courseLevel='Current Status: javaScript' />
           <Content contentTopic='Tuesday and Friday' topicNum='4' courseLevel='Current Status: React.js' />
           <Content contentTopic='Saturday Only' topicNum='1' courseLevel='Current Status: HTML5' />
