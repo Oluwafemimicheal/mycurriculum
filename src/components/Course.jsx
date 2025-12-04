@@ -31,9 +31,9 @@ const Course = () => {
 
       <Link to={"/"} className="opacity-50 hover:opacity-100 transition lg:ml-10 mb-10 inline-flex items-center gap-1 bg-blue-500 lg:fixed py-1 px-1 lg:px-3 rounded-md text-sm"> <FaChevronLeft /> Back</Link>
 
-      <div className="w-full lg:w-[1200px] mx-auto  py-5 px-2 lg:px-0 lg:py-16 rounded-2xl">
+      <div className="w-full lg:w-[1200px] mx-auto  py-5 px-2 lg:px-0 lg:py-16">
         {front.map((data) => {
-          return <div key={data?.id} className=" flex lg:flex-row md:flex-row flex-col justify-between items-center">
+          return <div key={data?.id} className=" flex lg:flex-row md:flex-row flex-col justify-between items-start">
             <div>
               <h1 className="font-bold text-2xl underline mb-4"><span className="text-blue-500">{data?.title}</span> Curriculum</h1>
               {data?.topic?.map((list, index) => {
@@ -53,7 +53,7 @@ const Course = () => {
         })}
 
         {back.map((data) => {
-          return <div key={data?.id} className=" flex lg:flex-row md:flex-row flex-col justify-between items-center">
+          return <div key={data?.id} className=" flex lg:flex-row md:flex-row flex-col justify-between items-start">
             <div>
               <h1 className="font-bold text-2xl underline mb-4"><span className="text-blue-500">{data?.title}</span> Curriculum</h1>
               {data?.topic?.map((list, index) => {

@@ -21,7 +21,7 @@ const Curriculum = () => {
             <Link to={'attendance'} className="bg-[#242424] hover:bg-blue-600 transition shadow-sm shadow-black/50 text-white px-4 py-1 rounded-sm">Attendance</Link>
             <Link to={'project'} className="bg-[#242424] hover:bg-blue-600 transition shadow-sm shadow-black/50 text-white px-4 py-1 rounded-sm">Project</Link>
           </div>
-          <div>
+          <div className="hidden lg:block">
             <button onClick={() => setGrid(prev => !prev)}>
               {
                 grid ? <FaAdjust size={25} color="white" className="cursor-pointer" /> : <FaBars size={25} color="white" className="cursor-pointer" />
