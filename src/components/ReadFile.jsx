@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { frontend, backend } from "../curriculumData"
-import { motion } from "framer-motion";
+import Loading from "./Loading";
+import { div } from "framer-motion/client";
 
 const ReadFile = () => {
   const [topic, setTopic] = useState([])
   const [text, setText] = useState("")
+  const [loading, setLoading] = useState(false)
   const { id } = useParams()
 
 
@@ -20,20 +22,33 @@ const ReadFile = () => {
     const filePath = `${import.meta.env.BASE_URL}${course.map(data => data.note)}`
     const fileResult = filePath.replaceAll(",", "")
 
-    fetch(`${fileResult}`)
-      .then((res) => res.text())
-      .then((data) => setText(data))
-      .catch((err) => console.log(err));
+    const fetchFile = async () => {
+      try {
+        setLoading(true)
+        const response = await fetch(`${fileResult}`)
+        const data = await response.text()
+        setText(data)
+        setLoading(false)
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    fetchFile()
+
   }, []);
+
+
   return (
     <div className="w-full lg:w-[1100px] mx-auto lg:py-10 lg:px-0 relative">
       <h1 className="bg-blue-500 text-white font-bold p-4 text-[18px] sticky top-0">{topic.map((topic) => topic.title)} Curriculum </h1>
-      <motion.div initial={{ opacity: 0, x: -100 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: 0 }}
-        transition={{ duration: 0.2 }} className="overflow-hidden bg-gray-900 flex p-4">
-        <pre>{text}</pre>
-      </motion.div>
+      {
+        loading ? <div className="w-full h-[450px] flex justify-center items-center">
+          <Loading />
+        </div> : <div className="overflow-hidden bg-gray-900 flex p-4">
+          <pre>{text}</pre>
+        </div>
+      }
+
     </div>
   )
 }

@@ -8,327 +8,208 @@ Installing Node.js (LTS version)
 Running scripts from the terminal:
 node app.js
 
-
-Using Node REPL (Read–Eval–Print Loop)
-
 Practice:
-
 Run your first program:
-
 console.log("Hello from Node.js!");
+____________________________________________________________________
 
 Module 2: Global Objects and Core Concepts
 
-Goal: Learn Node’s global variables and the runtime environment.
-Topics:
-
 __dirname and __filename
-
 require and module.exports
-
 process object and process.argv
-
 Using setTimeout(), setInterval(), and clearInterval()
-
 Exiting the process (process.exit())
 
 Practice:
-
 Print current directory and file path.
-
 Create a timer that logs “Running…” every 2 seconds.
+____________________________________________________________________
 
 Module 3: Modules and the Module System
 
-Goal: Master modular code in Node.js.
-Topics:
-
 What are modules?
-
 CommonJS module system
-
 Creating your own module:
 
 module.exports = function greet(name) {
   return `Hello ${name}`;
 };
 
-
 Importing custom modules with require()
-
 Built-in core modules overview (fs, os, path, http, events, etc.)
 
 Practice:
-
 Create a module that exports multiple functions (e.g. add, subtract).
-
 Import it into another file and test it.
+____________________________________________________________________
 
 Module 4: File System (fs module)
 
-Goal: Read, write, and manage files using Node.
-Topics:
-
 Synchronous vs asynchronous methods
-
 Reading files: fs.readFile() and fs.readFileSync()
-
 Writing files: fs.writeFile() and fs.appendFile()
-
 Deleting files: fs.unlink()
-
 Creating and removing directories
-
 Watching files with fs.watch()
 
 Practice:
-
 Create a text file and read its content.
-
 Write user input (from terminal) into a file.
+____________________________________________________________________
 
 Module 5: Path and OS Modules
 
-Goal: Work with file paths and system info.
-Topics:
-
 Using the path module (path.join(), path.basename(), etc.)
-
 Using the os module:
-
 System uptime
-
 Memory info
-
 Platform, hostname, CPU info
 
 Practice:
-
 Create a script that prints system info using os module.
-
 Build a file path safely using path.join().
+____________________________________________________________________
 
 Module 6: Events and EventEmitter
 
-Goal: Understand Node’s event-driven architecture.
-Topics:
-
 What is an event emitter?
-
 Importing events module
-
 Creating an event emitter instance
-
 Listening (on) and emitting (emit) events
-
 Passing data with events
-
 Removing listeners
 
 Practice:
-
-Create an event emitter that logs a message when a “start” event is emitted.
-
+Create an event emitter that logs a message 
+when a “start” event is emitted.
 Emit an event when a file operation completes.
+____________________________________________________________________
 
 Module 7: Buffers and Streams
 
-Goal: Learn how Node handles binary data and data flow.
-Topics:
-
 What are Buffers and why they exist
-
 Creating a buffer from a string or array
-
 Writing to and reading from buffers
-
 What are Streams (Readable, Writable, Duplex, Transform)
-
 Reading and writing files using streams
-
 Piping data between streams (readable.pipe(writable))
 
 Practice:
-
 Copy the contents of one file to another using streams.
-
 Read a large text file with a readable stream and log chunks.
 
+____________________________________________________________________
 Module 8: Creating HTTP Servers (Core http Module)
 
-Goal: Build a simple web server from scratch (no Express).
-Topics:
-
 Importing and using the http module
-
 Creating an HTTP server
-
 Handling requests and sending responses
-
 Understanding request and response objects
-
 Writing headers (res.writeHead())
-
 Returning HTML and JSON responses
-
 Routing manually using req.url
 
 Practice:
-
 Create a simple server that returns:
-
 “Home Page” for /
-
 “About Page” for /about
-
 404 for unknown routes
+
+____________________________________________________________________
 
 Module 9: Working with the URL Module
 
-Goal: Parse and handle URL data.
-Topics:
-
 Using the url module to parse URLs
-
 Extracting query parameters
-
 Combining URL and http module for routing logic
 
 Practice:
-
-Create a server that displays query parameters (e.g., /greet?name=John → “Hello John”).
+Create a server that displays query parameters
+ (e.g., /greet?name=John → “Hello John”).
+____________________________________________________________________
 
 Module 10: Asynchronous Programming in Node
 
-Goal: Understand how Node handles asynchronous tasks.
-Topics:
-
 Callbacks
-
 Promises and async/await
-
 Using util.promisify() to convert callback functions
-
 Event loop overview
-
 Microtasks vs macrotasks
 
 Practice:
-
 Rewrite file system operations using Promises and async/await.
-
 Log the execution order to understand event loop behavior.
+
+____________________________________________________________________
 
 Module 11: CLI (Command Line Interface) Apps
 
-Goal: Create Node-based command-line tools.
-Topics:
-
 Using process.argv for command-line arguments
-
 Reading user input with readline module
-
 Using chalk (optional) for colorful CLI output
-
 Building and packaging CLI tools
 
 Practice:
-
 Create a command-line “note taker” app that saves text into a file.
-
 Add a “read” and “delete” feature for saved notes.
+____________________________________________________________________
 
 Module 12: Child Processes
 
-Goal: Run and manage system commands from Node.
-Topics:
-
 child_process module overview
-
 Using exec() and spawn()
-
 Handling output and errors
-
 Creating background tasks
 
 Practice:
-
 Create a script that runs a shell command (e.g., dir or ls).
-
 Log the output to the console.
+
+____________________________________________________________________
 
 Module 13: Error Handling and Debugging
 
-Goal: Write stable, bug-free Node programs.
-Topics:
-
 Handling synchronous and asynchronous errors
-
 Using try...catch and error events
-
 Emitting custom errors
-
 Debugging with Node’s built-in debugger (node inspect)
-
 Logging with console and process.stderr
 
 Practice:
-
 Simulate a file read error and handle it gracefully.
-
 Use try...catch to handle invalid JSON input.
+____________________________________________________________________
 
 Module 14: File Upload and Streams (Intermediate)
 
-Goal: Handle raw incoming data (e.g., uploads).
-Topics:
-
 Handling POST requests manually (no Express)
-
 Reading incoming data with streams (req.on('data'))
-
 Writing data to a file (fs.createWriteStream)
-
 Understanding multipart/form-data basics
 
 Practice:
-
 Build a raw file upload handler that saves incoming data to disk.
+____________________________________________________________________
 
 Module 15: Node.js Best Practices
 
-Goal: Write cleaner and more efficient Node programs.
-Topics:
-
 Organizing code with modules and folders
-
 Avoiding callback hell
-
 Using Promises and async functions effectively
-
 Environment variables and process.env
-
 Graceful shutdown of servers
 
 Practice:
-
 Refactor a large script into multiple modules.
-
 Use async/await everywhere possible.
+____________________________________________________________________
 
-✅ Final Project: Build a Basic Node.js Web Server (No Express)
-
-Goal: Combine everything you’ve learned.
-Requirements:
+Final Project: Build a Basic Node.js Web Server (No Express)
 
 Use http module to handle routes: /, /about, /api/users
-
 Serve a static HTML file for /
-
 Serve JSON data for /api/users
-
 Handle 404 pages
-
 Log each request using the fs module (access logs)
-
 Handle errors gracefully

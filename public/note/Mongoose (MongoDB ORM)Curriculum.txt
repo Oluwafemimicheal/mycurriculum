@@ -2,161 +2,123 @@ Mongoose (MongoDB ORM)Curriculum
 1. Introduction to Mongoose
 
 What is Mongoose?
-
 Why use an ORM/ODM with MongoDB
-
 Installing Mongoose:
-
 npm install mongoose
-
-
 Connecting to MongoDB (local or Atlas)
 
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/school')
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.log(err));
+______________________________________________________________
 
 2. Mongoose Schemas
-
 What is a Schema?
-
 Defining schema fields and types (String, Number, Date, Boolean, Array, Object)
-
 Setting default values and required fields
-
 Adding validation
 
 Practice:
-
 const studentSchema = new mongoose.Schema({
   name: { type: String, required: true },
   age: Number,
   grade: { type: String, default: 'A' },
   enrolled: { type: Boolean, default: true }
 });
+______________________________________________________________
 
 3. Models
 
 What is a Model in Mongoose?
-
 Creating a model from a schema:
-
 const Student = mongoose.model('Student', studentSchema);
-
-
 Using the model to interact with the database
 
 Practice:
-
 Create a Student model and save one document to MongoDB.
+______________________________________________________________
 
 4. CRUD Operations
 
 Create:
-
 const student = new Student({ name: 'Femi', age: 20 });
 await student.save();
 
-
 Read:
-
 const students = await Student.find();
 const studentById = await Student.findById(id);
 
-
 Update:
-
 await Student.updateOne({ name: 'Femi' }, { age: 21 });
 await Student.findByIdAndUpdate(id, { grade: 'B' });
 
-
 Delete:
-
 await Student.deleteOne({ name: 'Femi' });
 await Student.findByIdAndDelete(id);
 
-
 Practice:
-
 Perform all CRUD operations on Student collection.
+______________________________________________________________
 
 5. Querying and Filtering
-
 Using .find() and .findOne()
-
 Comparison operators ($gt, $lt, $in)
-
 Logical operators ($or, $and)
-
 Sorting (.sort()), limiting (.limit())
 
 Practice:
-
 Find students older than 18 and sort by name
-
 Limit query results to 5 students
+______________________________________________________________
 
 6. Middleware (Hooks)
-
 What are Mongoose middleware (pre/post hooks)?
-
 Using pre('save') and post('save')
-
 Useful for logging, validation, or modifying data
 
 Practice:
-
 Add a pre-save hook to log every time a student is saved.
+______________________________________________________________
 
 7. Virtuals
 
 Virtual properties (not stored in DB)
-
 Example: fullName computed from firstName + lastName
-
 studentSchema.virtual('fullName').get(function() {
   return `${this.firstName} ${this.lastName}`;
 });
 
-
 Practice:
-
 Add a fullName virtual to your student schema.
+______________________________________________________________
 
 8. Relationships (References and Population)
 
 One-to-many relationships using references (ref)
-
 Populating related documents with .populate()
 
 Practice:
-
 Create Class and Student models
-
 Assign students to a class using references
-
 Query a class and populate student data
+______________________________________________________________
 
 9. Aggregation
 
 Using .aggregate() for grouping, summing, counting, averaging
-
 Example: average age of students per grade
 
 Practice:
-
 Group students by grade and calculate average age.
+______________________________________________________________
 
 10. Mini Project
 
 Goal: Apply Mongoose to manage MongoDB data.
+
 Project: School Management
-
 Collections: students, teachers, classes
-
 CRUD operations on all collections
-
 Queries and filtering (find students by grade, age)
-
 Relationships: Students assigned to classes
